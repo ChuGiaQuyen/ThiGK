@@ -4,6 +4,10 @@ void func() {
 	int a;
 	cin >> a;
 	cout << "Số nguyên vừa nhập là: " << a;
+	if (a % 2 == 1)
+		cout << "Số vừa nhập là số lẻ";
+	else
+		cout << "Số vừa nhập không là số lẻ";
 	
 }
 void main() {
